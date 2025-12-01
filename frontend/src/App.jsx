@@ -2,6 +2,7 @@ import React from "react";
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import Products from "./components/Products";
+import BestProducts from "./components/BestProducts";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
         <center>for Your Complete Well-Being</center>
       </div>
       <Products />
+      <BestProducts/>
     </div>
   );
 };
