@@ -34,7 +34,7 @@ const Testimonials = () => {
       </div>
       <div className='flex flex-col'>
         <img src={logo2} alt="" />
-        <button className="text-blue-600 border border-b-blue-600 py-2">
+        <button className="text-blue-600 cursor-pointer border border-b-blue-600 py-2">
           Follow Us
         </button>
         <img className='mt-5' src={socialmedia} alt="" />

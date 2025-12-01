@@ -4,7 +4,7 @@ import cart from "../assets/images/cart.png";
 
 const Navbar = () => {
   return (
-    <div className="flex gap-180 mt-3 px-12">
+    <div className="flex gap-180 mt-3 px-12 border-b-3 border-b-gray-200">
       <div className="flex items-center">
         <img className="w-[100px] h-[78px]" src={logo} alt="" />
       </div>

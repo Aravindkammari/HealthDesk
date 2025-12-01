@@ -4,7 +4,7 @@ import star from '../assets/images/star_purple500.png'
 
 const TestimonialCard = ({image, name, content, customerName}) => {
   return (
-    <div>
+    <div className='cursor-pointer'>
       <div className='absolute w-100 px-5'>
         <div className='flex'>
           <img src={image} alt="" className='relative bottom-10 h-20'/>
@@ -24,7 +24,7 @@ const TestimonialCard = ({image, name, content, customerName}) => {
         </div>
         <p>{customerName}</p>
       </div>
-      <img className='h-70 w-100' src={testimonialcardbg} alt="" />
+      <img className='h-60 w-100' src={testimonialcardbg} alt="" />
     </div>
   );
 }

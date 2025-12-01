@@ -7,6 +7,7 @@ import Brand from "./components/Brand";
 import Article from "./components/Article";
 import Charity from "./components/Charity";
 import Testimonials from "./components/Testimonials";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
       <Article/>
       <Charity/>
       <Testimonials/>
+      <Footer/>
     </div>
   );
 };
