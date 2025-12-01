@@ -3,7 +3,7 @@ import doctor from '../assets/images/doctor.png'
 
 const Hero = () => {
   return (
-    <div className="bg-[#0309320A] m-3 flex items-center justify-center gap-4">
+    <div className="bg-[#0309320A] mx-15 mt-7 flex items-center justify-center gap-4">
       <div className="w-120 relative left-70">
         <p className="font-bold text-4xl">
           Health Desk Clinic:
