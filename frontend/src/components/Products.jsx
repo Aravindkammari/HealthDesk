@@ -7,7 +7,7 @@ import skincare from '../assets/images/skincare.png'
 
 const Products = () => {
   return (
-    <div className='grid grid-cols-4 mt-20 gap-5'>
+    <div className='grid grid-cols-4 mt-20 gap-5 px-12'>
       <Card
         image={weightloss}
         name="Weight Loss"

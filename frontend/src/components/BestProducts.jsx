@@ -8,7 +8,7 @@ import vitarenew from '../assets/images/vitarenew.png';
 
 const BestProducts = () => {
   return (
-    <div className="mt-20">
+    <div className="mt-20 px-12">
       <h1 className="font-bold text-2xl">Our Best Sellers</h1>
       <p className="mt-2 text-sm">
         Formulated with science-backed all-natural ingredients, our unique

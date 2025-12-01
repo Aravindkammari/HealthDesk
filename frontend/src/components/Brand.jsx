@@ -4,7 +4,7 @@ import branditems from '../assets/images/branditems.png'
 
 const Brand = () => {
   return (
-    <div className="mt-30">
+    <div className="mt-30 px-12">
       <div className="absolute w-full flex flex-col mt-10 items-center justify-center">
         <center className="font-bold text-3xl">
           A Brand That You Can Trust

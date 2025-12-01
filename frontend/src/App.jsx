@@ -6,6 +6,7 @@ import BestProducts from "./components/BestProducts";
 import Brand from "./components/Brand";
 import Article from "./components/Article";
 import Charity from "./components/Charity";
+import Testimonials from "./components/Testimonials";
 
 const App = () => {
   return (
@@ -21,6 +22,7 @@ const App = () => {
       <Brand/>
       <Article/>
       <Charity/>
+      <Testimonials/>
     </div>
   );
 };
