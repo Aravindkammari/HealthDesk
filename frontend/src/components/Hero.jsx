@@ -16,7 +16,7 @@ const Hero = () => {
           all-natural, organic health supplements are designed to give your body
           what it needs to thrive and optimize your health each day!
         </p>
-        <button className="bg-blue-600 font-bold text-amber-50 p-4 rounded-[50px] w-50 mt-8">
+        <button className="bg-blue-600 font-bold text-amber-50 p-4 rounded-[50px] w-50 mt-8 cursor-pointer">
           Shop Now
         </button>
       </div>

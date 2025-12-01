@@ -9,7 +9,7 @@ const Card = ({image, name, text}) => {
         <p className='mt-1'>
           {text}
         </p>
-        <button className='text-amber-50 bg-blue-500 rounded-[40px] w-40 mt-3'>Buy Now</button>
+        <button className='text-amber-50 bg-blue-500 rounded-[40px] w-40 mt-3 cursor-pointer'>Buy Now</button>
       </div>
     </div>
   );

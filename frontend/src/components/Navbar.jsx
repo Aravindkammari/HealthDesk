@@ -10,13 +10,13 @@ const Navbar = () => {
       </div>
       <div className="flex items-center">
         <ul className="flex gap-10 items-center justify-center ">
-          <li>Home</li>
-          <li>Shop</li>
-          <li>About Us</li>
-          <li>FAQ</li>
-          <li>Blog</li>
-          <li>Contact Us</li>
-          <li>
+          <li className="cursor-pointer">Home</li>
+          <li className="cursor-pointer">Shop</li>
+          <li className="cursor-pointer">About Us</li>
+          <li className="cursor-pointer">FAQ</li>
+          <li className="cursor-pointer">Blog</li>
+          <li className="cursor-pointer">Contact Us</li>
+          <li className="cursor-pointer">
             <img src={cart} alt="" />
           </li>
         </ul>

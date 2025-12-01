@@ -16,7 +16,7 @@ const BestSellerCard = ({image, name}) => {
           <img src={star} alt="" />
           <img src={star} alt="" />
         </div>
-        <button className='text-sm border-b-blue-700 border px-6 py-2 text-blue-600'>Shop Now</button>
+        <button className='text-sm border-b-blue-700 border px-6 py-2 text-blue-600 cursor-pointer'>Shop Now</button>
       </div>
     </div>
   );
